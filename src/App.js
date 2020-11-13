@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  HashRouter as Router,
-  Route,
-  Redirect,
-  Switch,
-} from 'react-router-dom';
+import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 import MainNavigation from './components/MainNavigation';
 import About from './pages/About';
 import Links from './pages/Links';
@@ -12,7 +7,7 @@ import Projects from './pages/Projects';
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <MainNavigation />
       <main>
         <Switch>
@@ -28,7 +23,7 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
       </main>
-    </Router>
+    </HashRouter>
   );
 };
 
