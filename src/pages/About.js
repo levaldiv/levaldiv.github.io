@@ -29,7 +29,7 @@ const About = () => {
                 </h5>
                 <Button 
                     variant="outline-light" 
-                    href={process.env.PUBLIC_URL + 'Resume.pdf'}
+                    href={process.env.PUBLIC_URL + 'Resume2.pdf'}
                     size="lg"
                     download
                 >
