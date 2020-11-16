@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
                 <Card.Text>
-                   {/* <strong>Language/Framework: </strong> */} {props.languages}
+                   <strong>Language/Framework: </strong> {props.languages}
                 </Card.Text>
             </Card.Body>
             <div className="d-flex flex-row justify-content-around mb-3">
@@ -18,8 +18,8 @@ const ProjectCard = (props) => {
                     <Icon icon={githubIcon} />
                 </Button>
                 {props.url !== '' && (
-                    <Button variant="outline-success" href={props.url}>
-                        It's live
+                    <Button variant="outline-dark" href={props.url}>
+                        Check it out!
                     </Button>
                 )}
             </div>

@@ -24,7 +24,7 @@ const About = () => {
                 </h4>
                 <h5 className="text-white mb-5 max-button">
                     Dedicated, organized, and self-directed team player. Learning
-                    to code one language at a time. I enojy coding, socializing with friends, 
+                    to code one language at a time. I enjoy coding, socializing with friends, 
                     and outdoor activities.
                 </h5>
                 <Button 

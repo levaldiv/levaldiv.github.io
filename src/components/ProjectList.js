@@ -4,17 +4,17 @@ import ProjectCard from './ProjectCard';
 const ProjectList = () => {
     const projects = [
         {
-            name: '',
-            url: '',
-            github: '',
-            languages: '',
+            name: 'Portfolio',
+            url: 'https://levaldiv.com/',
+            github: 'https://github.com/levaldiv/levaldiv.github.io',
+            languages: 'SASS, JavaScript, CSS',
             description: 
-                'Come back soon!',
+                'Built a portfolio website similar to LinkTree',
         },
     ];
     return (
         <div className="py-3 d-flex flex-column justify-content-center align-items-center align-content-center">
-            <h2 style={{color: 'white'}}>What I have been working on..</h2>
+            <h2 style={{color: 'white'}}>What I have been working on</h2>
             <div className="container ">
                 <div className="row justify-content-center">
                     {projects.map((project, index) => (
